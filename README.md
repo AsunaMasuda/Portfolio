@@ -5,6 +5,7 @@ This is my portfolio website to present to prospective employers.
 The portfolio highlights several projects that cover a range of technologies, as well as including about myself, my technology & business skills, and a contact form.
 
 ## Demo
+[View Live Preview](http://)
 To be updated
 
 ## UX
@@ -37,7 +38,7 @@ The wood theme and white/blue color were chosed to creat a warm and welcoming fe
 ## Technologies
 1. HTML
 2. CSS
-3. Bootstrap (3.3.7)
+3. Bootstrap (v4.4.1)
 
 
 ## Features
@@ -58,7 +59,8 @@ To be updated
 To be updated
 
 ### Media
+- The favicon was made by [Freepik](https://www.flaticon.com/authors/freepik) from [Flaticon](https://www.flaticon.com/).
 To be updated
+- The photo of the landing page is by Elizaveta Kozorezova from Pexels
 
 ### Acknowledgements
-To be updated
