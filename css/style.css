@@ -17,29 +17,32 @@ a:hover {
 	color: #fed136
 }
 
+hr {
+    margin-top: 20px!important;
+    margin-bottom: 40px!important;
+    margin-left: 130px!important;
+    margin-right: 130px!important;
+    border-color: #727878!important;
+    opacity: 0.3!important;
+}
+
 h1,
 h2,
-h3,
+h3{
+    font-weight: 700;
+    font-family: 'Girassol', cursive!important;
+}
 h4,
 h5,
 h6 {
 	font-weight: 700;
-	font-family: Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'
+	font-family: 'IM Fell Double Pica', serif
 }
 
 .page-section h2.section-heading {
 	font-size: 40px;
 	margin-top: 0;
-	margin-bottom: 40px
-}
-
-.page-section h3.section-subheading {
-	font-size: 16px;
-	font-weight: 400;
-	font-style: italic;
-	margin-bottom: 75px;
-	text-transform: none;
-	font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'
+	margin-bottom: 10px
 }
 
 /*------------------------ For PC and large screen devices*/
@@ -110,7 +113,8 @@ img::-moz-selection {
 
 #mainNav .navbar-brand {
 	color: #fed136;
-	font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.0em
 }
 
 #mainNav .navbar-brand.active,
@@ -121,13 +125,13 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
-	font-size: 90%;
+	font-size: 100%;
 	font-weight: 400;
 	padding: .75em 0;
 	letter-spacing: 1px;
 	color: #fff;
-	font-family: Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'
-}
+	font-family: 'Girassol', cursive
+    }
 
 #mainNav .navbar-nav .nav-item .nav-link.active,
 #mainNav .navbar-nav .nav-item .nav-link:hover {
@@ -142,7 +146,7 @@ img::-moz-selection {
 		border: none;
 	}
 	#mainNav .navbar-brand {
-		font-size: 1.75em;
+		font-size: 40px;
 		transition: all .3s
 	}
 	#mainNav .navbar-nav .nav-item .nav-link {
@@ -179,13 +183,8 @@ img::-moz-selection {
     padding: 0px;
 }
 
-#top .container {
-    height: 100%;
-}
-
 .toppage .background {
 	color: #fff;
-	background-color: rgba(10, 10, 10, 0.4);
     z-index: 9999;
 }
 
@@ -195,25 +194,25 @@ img::-moz-selection {
 }
 
 .toppage .intro-text .intro-lead-in {
-	font-size: 30px;
+    font-family: 'Girassol', cursive!important;
+	font-size: 35px;
 	line-height: 35px;
 	margin-bottom: 15px;
-	font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    text-shadow: 3px 3px #4242428f;
 }
 
 .toppage .intro-text .intro-heading {
+    font-family: 'Girassol', cursive!important;
 	font-size: 25px;
 	font-weight: 300;
 	line-height: 30px;
 	margin-bottom: 10px;
-
-	font-family: Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    text-shadow: 3px 3px #4242428f;
 }
 
 @media (min-width:576px) {
     .toppage .background {
 	color: #fff;
-	background-color: rgba(10, 10, 10, 0.1);
     z-index: 9999;
     }
 }
@@ -240,10 +239,15 @@ img::-moz-selection {
 
 /*-------------------------------------------- About page */
 
+#aboutme h2 {
+    color: #164e73;
+}
+
 #aboutme .background {
     background-image: url(../images/blommor.jpg);
     background-size: cover;
     z-index: 100;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center center;
     padding: 0px;
@@ -255,7 +259,14 @@ img::-moz-selection {
     border-style: initial;
     border-color: initial;
     border-image: initial;
-    padding: 150px 100px;
+    padding: 150px 80px;
+    background-color: rgba(95, 80, 67, 0.25);
+}
+
+.about-background {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 30px 20px;
+    border-radius: 15px
 }
 
 .circle-photo {
@@ -290,22 +301,25 @@ img::-moz-selection {
     border-style: initial;
     border-color: initial;
     border-image: initial;
-    padding: 150px 100px;
+    padding: 150px 80px;
 }
 
-section#history.page-section h2.section-heading {
-    margin-bottom: 60px
+.history-background {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 30px 30px;
+    border-radius: 15px
+}
+
+#history h3 {
+    font-size: 2.0rem!important;
+    margin-bottom: 20px
 }
 
 .education-career {
-    margin-bottom: 30px
+    margin-bottom: 45px
 }
 
 .education-career-container {
-    margin-bottom: 30px
-}
-
-section#history h3 {
     margin-bottom: 30px
 }
 
@@ -328,11 +342,19 @@ ul.no-bullets {
 }
 
 #skills ul > li .skill-score .fas.filled {
-    color: rgb(46, 106, 146);
+    color: rgb(230, 122, 167);
 }
 
 #skills ul > li .skill-score .fas.not-filled {
     color: rgb(120, 120, 120);
+}
+
+#history h2,h3,h4,h5 {
+    color: #164e73;
+}
+
+#history h6 {
+    color: rgb(230, 122, 167);
 }
 
 @media (max-width:992px) {
@@ -342,7 +364,7 @@ ul.no-bullets {
     border-style: initial;
     border-color: initial;
     border-image: initial;
-    padding: 150px 100px;
+    padding: 150px 80px;
 }
 }
 
@@ -353,27 +375,43 @@ ul.no-bullets {
     border-style: initial;
     border-color: initial;
     border-image: initial;
-    padding: 150px 70px;
+    padding: 150px 60px;
 }
 }
 
 /*-------------------------------------------- Project */
 
+#project h2 {
+    color: #fff
+}
+
 #project .background {
     background-image: url(../images/colored-wooden.jpg);
     background-size: cover;
     z-index: 100;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center center;
     padding: 0px;
 }
+
+.project-container {
+    margin: 0px;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    padding: 150px 80px;
+	background-color: rgba(143, 143, 143, 0.2);
+}
+
 
 .project-heading {
 	margin: 15px 0;
 	text-transform: none
 }
 
-.project-container {
+.ind-container {
     background-color: #fff;
     padding: 0.8em 0.5em 0.8em 0.5em;
     margin: 5px;
@@ -381,23 +419,45 @@ ul.no-bullets {
     border-radius: 15px
 }
 
-.project-container a {
+.ind-container a {
 	transition: all .2s;
     overflow: hidden
 }
 
-.project-container a:active,
-.project-container a:focus,
-.project-container a:hover {
+.ind-container a:active,
+.ind-container a:focus,
+.ind-container a:hover {
 	background-color: #fed136;
 	text-decoration: none;
 
 }
 
-
-
-
 /*-------------------------------------------- Contact page */
+
+#contact h2 {
+    color: #fff!important
+}
+
+#contact .background {
+    background-image: url(../images/green-telephone.jpg);
+    background-size: cover;
+    z-index: 200;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 0px;
+}
+
+.contact-container{
+    margin: 0px;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    padding: 150px 80px;
+	background-color: rgba(10, 10, 10, 0.50);
+}
+
 
 section#contact .section-heading {
 	color: #212529
@@ -467,7 +527,6 @@ section#contact .container, .container-sm {
 	padding: 15px 0;
 	text-align: center;
     background-color: #164e73e3;
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
