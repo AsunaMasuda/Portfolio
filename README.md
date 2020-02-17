@@ -61,6 +61,7 @@ To be updated
 ### Media
 - The favicon was made by [Freepik](https://www.flaticon.com/authors/freepik) from [Flaticon](https://www.flaticon.com/).
 To be updated
+- The photo of colorful wood is by Magda Ehlers from Pexels 
 - The photo of the landing page is by Elizaveta Kozorezova from Pexels
 
 ### Acknowledgements

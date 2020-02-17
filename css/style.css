@@ -27,10 +27,6 @@ h6 {
 	font-family: Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'
 }
 
-.page-section {
-	padding: 150px 0
-}
-
 .page-section h2.section-heading {
 	font-size: 40px;
 	margin-top: 0;
@@ -47,12 +43,6 @@ h6 {
 }
 
 /*------------------------ For PC and large screen devices*/
-@media (min-width:768px) {
-	section {
-		padding: 150px 0
-	}
-
-}
 
 ::-moz-selection {
 	background: #fed136;
@@ -178,16 +168,20 @@ img::-moz-selection {
 /*-------------------------------------------- Top page */
 
 .toppage {
-	text-align: left;
-	color: #fff;
-	background-image:url(../images/white-ceramic-mug-3250240.jpg);
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: cover;
-	z-index: 1;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    background-image: url(../images/white-ceramic-mug-3250240.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 0px;
 }
 
-
+#top .container {
+    height: 100%;
+}
 
 .toppage .background {
 	color: #fff;
@@ -246,6 +240,24 @@ img::-moz-selection {
 
 /*-------------------------------------------- About page */
 
+#aboutme .background {
+    background-image: url(../images/blommor.jpg);
+    background-size: cover;
+    z-index: 100;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 0px;
+}
+
+.about-container {
+    margin: 0px;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    padding: 150px 100px;
+}
+
 .circle-photo {
     background-repeat: no-repeat;
     background-position: center;
@@ -260,7 +272,101 @@ img::-moz-selection {
     display: block;
 }
 
+/*-------------------------------------------- Work History & Skills */
+
+#history .background {
+    background-image: url(../images/IMG_3614.JPG);
+    background-size: cover;
+    z-index: 20;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 0px;
+}
+
+.history-container {
+    margin: 0px;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    padding: 150px 100px;
+}
+
+section#history.page-section h2.section-heading {
+    margin-bottom: 60px
+}
+
+.education-career {
+    margin-bottom: 30px
+}
+
+.education-career-container {
+    margin-bottom: 30px
+}
+
+section#history h3 {
+    margin-bottom: 30px
+}
+
+#skills .row {
+    margin-bottom: 30px;
+}
+
+ul.no-bullets {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#skills ul > li .skill-title {
+    display: inline-block;
+}
+
+#skills ul > li .skill-score {
+    float: right;
+}
+
+#skills ul > li .skill-score .fas.filled {
+    color: rgb(46, 106, 146);
+}
+
+#skills ul > li .skill-score .fas.not-filled {
+    color: rgb(120, 120, 120);
+}
+
+@media (max-width:992px) {
+.history-container {
+    margin: 0px;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    padding: 150px 100px;
+}
+}
+
+@media (max-width:768px) {
+.history-container {
+    margin: 0px;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    padding: 150px 70px;
+}
+}
+
 /*-------------------------------------------- Project */
+
+#project .background {
+    background-image: url(../images/colored-wooden.jpg);
+    background-size: cover;
+    z-index: 100;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 0px;
+}
 
 .project-heading {
 	margin: 15px 0;
@@ -289,39 +395,7 @@ img::-moz-selection {
 }
 
 
-/*-------------------------------------------- Work History & Skills */
 
-.history-container {
-    margin: 0 250px 
-}
-
-section#history.page-section h2.section-heading {
-    margin-bottom: 60px
-}
-
-.education-career {
-    margin-bottom: 30px
-}
-
-.education-career-container {
-    margin-bottom: 30px
-}
-
-section#history h3 {
-    margin-bottom: 30px
-}
-
-@media (max-width:992px) {
-.history-container {
-    margin: 0 200px
-}
-}
-
-@media (max-width:768px) {
-.history-container {
-    margin: 0 50px
-}
-}
 
 /*-------------------------------------------- Contact page */
 
