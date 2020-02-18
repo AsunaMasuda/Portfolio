@@ -1,51 +1,54 @@
 # Asuna Masuda Portfolio
-Milestone Project: User-Centric Frontend Development - Code Institute 
+Milestone Project #1 : User-Centric Frontend Development - Code Institute 
 
-This is my portfolio website to present to prospective employers.
-The portfolio highlights several projects that cover a range of technologies, as well as including about myself, my technology & business skills, and a contact form.
-
-## Demo
-[View Live Preview](http://)
-To be updated
+This is my portfolio website to present to prospective employers. The portfolio shows my career and education histories and highlights my skills and several projects that cover a wide range of technologies in software development and data science. Also, it contains a contact form for the visiters who are interested in contacting me.
+[Photo]
 
 ## UX
 
 ### User stories
-To be updated
+The users who would see this portfolio could be recruiters and managers of the prospective company and team.
 
-### Strategy
-My goal in the design was to make it as easy as possible to access information on the site while striving for a minimalist and user-friendly design.
+For the recruiters, they would be curious about my education and career history.
+[Photo]
 
-### Scope
-For employers, I wanted to provide them with a brief overview of myself and my capabilities. This way, they would be able to get a glimpse of who I am, my background, work I've done, and my skills, with the option to contact me if they choose.
+For the managers, they would be interested in my technologies skill sets and the projects I've completed so far. 
+[Photo]
 
-### Structure
-In the 'Work/Travail' section, I wanted them to be able to quickly access work that I've done, providing a short summary of the project and main technologies with a link to each GitHub Repository and live demo. A link to my LinkedIn profile, my GitHub, and a downloadable PDF version of my CV were also provided for their ease of access.
+### UX Strategy
 
-### Skeleton
-[About wireframe]
+#### Structure
+- Utilized a responsive navigation bar which makes it easy to navigate and recognize where the visiters are in the site. This navbar collapses with smaller screen sizes, so the navbar section does not get busy with letters.
+- The footer section holds icons and links to my Github and LinkedIn accounts
+
+#### Design
+- Chose moderate and beautiful backgrounds.
+- Unified the colors using blue, yellow and pink with darker tones.
+- When hover over any links, they returns yellow color so that they can unify the site.
+
+#### Contents
+- Kept the words as simple as possible as I wanted the visiters easily to glimpse of who I am  
+- Visualized the skills with the filled & unfilled stars so they can easily grasp my skills at a glance
+
+#### Wireframes
+[About Me wireframe]
+
+[Work History & Skills wireframe]
+
+[Projects wireframe]
 
 [Contact wireframe]
 
-[Landing Page wireframe]
-
-[Skills wireframe]
-
-[Work wireframe]
-### Surface
-The wood theme and white/blue color were chosed to creat a warm and welcoming feel. 
 
 ## Technologies
 1. HTML
 2. CSS
 3. Bootstrap (v4.4.1)
+4. JavaScript (Contactform, Tooltips, Navigation Bar)
 
-
-## Features
-To be updated
-
-### Features Left to Implement
-To be updated
+## Features Left to Implement
+- At the moment, submit botton just replies in a alert message. In the future, I'd like to connect with my email address so I can receive. 
+- More animations when hovering over some parts of the site with JavaScript. E.g. the stars in the skill section could respond
 
 ## Testing
 To be updated
@@ -56,12 +59,18 @@ To be updated
 ## Credits
 
 ### Content
-To be updated
+All html and css files in the "AsunaMasuda/Portfolio" repository in Github were written by Asuna Masuda.
 
 ### Media
+#### Icons
+- Thr icons were provided by [Font Awesoms](https://fontawesome.com/)
 - The favicon was made by [Freepik](https://www.flaticon.com/authors/freepik) from [Flaticon](https://www.flaticon.com/).
 To be updated
-- The photo of colorful wood is by Magda Ehlers from Pexels 
-- The photo of the landing page is by Elizaveta Kozorezova from Pexels
+#### Background Photos
+- The landing page: by Elizaveta Kozorezova from Pexels
+- About Me section: by 邱韬 from Pexels
+- Work History & Skills: by Asuna Masuda
+- Project Work section: by Magda Ehlers from Pexels
+- Contact section: by David Sun from Pexels
 
 ### Acknowledgements
