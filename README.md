@@ -2,7 +2,11 @@
 Milestone Project #1 : User-Centric Frontend Development - Code Institute 
 
 This is my portfolio website to present to prospective employers. The portfolio shows my career and education histories and highlights my skills and several projects that cover a wide range of technologies in software development and data science. Also, it contains a contact form for the visiters who are interested in contacting me.
-[Photo]
+
+## Demo
+[Live demo](https://asunamasuda.github.io/Portfolio/) is available here.
+
+<p align="center"><img src = "https://github.com/AsunaMasuda/Portfolio/blob/master/images_readme/Screen%20Shot%202020-02-18%20at%2019.47.55.png" width=700></p>
 
 ## UX
 
@@ -10,10 +14,12 @@ This is my portfolio website to present to prospective employers. The portfolio 
 The users who would see this portfolio could be recruiters and managers of the prospective company and team.
 
 For the recruiters, they would be curious about my education and career history.
-[Photo]
+<p align="center"><img src = "https://github.com/AsunaMasuda/Portfolio/blob/master/images_readme/Screen%20Shot%202020-02-18%20at%2019.49.15.png" width=700></p>
+
 
 For the managers, they would be interested in my technologies skill sets and the projects I've completed so far. 
-[Photo]
+<p align="center"><img src = "https://github.com/AsunaMasuda/Portfolio/blob/master/images_readme/Screen%20Shot%202020-02-18%20at%2019.49.24.png" width=500><img src = "https://github.com/AsunaMasuda/Portfolio/blob/master/images_readme/Screen%20Shot%202020-02-18%20at%2019.49.30.png" width=500></p>
+
 
 ### UX Strategy
 
@@ -31,13 +37,10 @@ For the managers, they would be interested in my technologies skill sets and the
 - Visualized the skills with the filled & unfilled stars so they can easily grasp my skills at a glance
 
 #### Wireframes
-[About Me wireframe]
-
-[Work History & Skills wireframe]
-
-[Projects wireframe]
-
-[Contact wireframe]
+- [Landing Page wireframe](https://github.com/AsunaMasuda/Portfolio/blob/master/mockups/LandingPage.pdf)
+- [About Me wireframe](https://github.com/AsunaMasuda/Portfolio/blob/master/mockups/AboutMe.pdf)
+- [Projects wireframe](https://github.com/AsunaMasuda/Portfolio/blob/master/mockups/ProjectWork.pdf)
+- [Contact wireframe](https://github.com/AsunaMasuda/Portfolio/blob/master/mockups/ContactMe.pdf)
 
 
 ## Technologies
@@ -54,7 +57,7 @@ For the managers, they would be interested in my technologies skill sets and the
 To be updated
 
 ## Deployment
-To be updated
+This site is using a custom domain with GitHub pages, deployed directly from the master branch. The deployed site will be updated upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html.
 
 ## Credits
 
@@ -74,3 +77,5 @@ To be updated
 - Contact section: by David Sun from Pexels
 
 ### Acknowledgements
+- I refered to the JavaScript snippets of [Tooltips](https://www.w3schools.com/bootstrap/bootstrap_tooltip.asp), [Navbar](https://getbootstrap.com/docs/4.4/components/navbar/) and [Scrollspy](https://getbootstrap.com/docs/4.4/components/scrollspy/), explained in the links respectively.
+- I refered to [this article by Madhav Bahl](https://hackernoon.com/use-custom-domain-with-github-pages-2-straightforward-steps-cf561eee244f) for how to use custom domain with Github pages
