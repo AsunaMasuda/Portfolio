@@ -452,20 +452,25 @@ section#contact .container, .container-sm {
 .container_c {
     padding: 50px 30px;
 }
+
+.toppage {
+    background-attachment: scroll!important
+}
+
 #aboutme .background {
-    background-attachment: scroll
+    background-attachment: scroll!important
 }
 
 #history .background {
-    background-attachment: scroll
+    background-attachment: scroll!important
 }
 
 #project .background {
-    background-attachment: scroll
+    background-attachment: scroll!important
 }
 
 #contact .background {
-    background-attachment: scroll
+    background-attachment: scroll!important
 }
 
 }
