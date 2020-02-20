@@ -452,6 +452,22 @@ section#contact .container, .container-sm {
 .container_c {
     padding: 50px 30px;
 }
+#aboutme .background {
+    background-attachment: scroll
+}
+
+#history .background {
+    background-attachment: scroll
+}
+
+#project .background {
+    background-attachment: scroll
+}
+
+#contact .background {
+    background-attachment: scroll
+}
+
 }
 
 @media screen and (min-width:480px) and (max-width:768px) {
