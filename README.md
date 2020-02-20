@@ -55,6 +55,7 @@ For the managers, they would be interested in my technologies skill sets and the
 
 ## Testing
 This site was tested across multiple browsers for desktop PCs (Chrome, Safari, FireFox, Opera) and on multiple mobile devices using Google developer tool(iPad, iPad Pro, iPhone X, iPhone 6/7/8 (Plus), iPhone 5/SE, Pixel 2 (XL), Galaxy S5) to ensure compatibility and responsiveness. 
+During the testing phase, I noticed the background image was not fuully displayed for bigger screens, so "height: 100vh; width: 100vw;" was added to the background classes.
 
 ## Development
 - I used Gitpod for a developer tool (IDE) in this project.
@@ -82,4 +83,4 @@ To be updated
 ### Acknowledgements
 - I refered to the JavaScript snippets of [Tooltips](https://www.w3schools.com/bootstrap/bootstrap_tooltip.asp), [Navbar](https://getbootstrap.com/docs/4.4/components/navbar/) and [Scrollspy](https://getbootstrap.com/docs/4.4/components/scrollspy/), explained in the links respectively.
 - I refered to [this article by Madhav Bahl](https://hackernoon.com/use-custom-domain-with-github-pages-2-straightforward-steps-cf561eee244f) for how to use custom domain with Github pages
-- For screen size optimizations, I refered to this article: [Optimizing for Large-Scale Displays](https://css-tricks.com/optimizing-large-scale-displays/), [The EMs have it: Proportional Media Queries FTW!](https://cloudfour.com/thinks/the-ems-have-it-proportional-media-queries-ftw/)
+- For screen size optimizations, I refered to this article: [Optimizing for Large-Scale Displays](https://css-tricks.com/optimizing-large-scale-displays/)
