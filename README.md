@@ -55,7 +55,7 @@ For the managers, they would be interested in my technologies skill sets and the
 
 ## Testing
 This site was tested across multiple browsers for desktop PCs (Chrome, Safari, FireFox, Opera) and on multiple mobile devices using Google developer tool(iPad, iPad Pro, iPhone X, iPhone 6/7/8 (Plus), iPhone 5/SE, Pixel 2 (XL), Galaxy S5) to ensure compatibility and responsiveness. 
-During the testing phase, I noticed the background image was not fuully displayed for bigger screens, so "height: 100vh; width: 100vw;" was added to the background classes.
+During the testing phase, I noticed the background image for the landing page was not fully displayed for bigger screens, so "height: 100vh; width: 100vw;" was added to the background class. Also, I noticed the layouts of containers in each section were not consistent as the screensize changes, so I added multiple media queries to keep layouts neat and beautiful. 
 
 ## Development
 - I used Gitpod for a developer tool (IDE) in this project.
