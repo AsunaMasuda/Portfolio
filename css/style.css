@@ -181,6 +181,9 @@ img::-moz-selection {
     background-repeat: no-repeat;
     background-position: center center;
     padding: 0px;
+    height: 100vh;
+    width: 100vw;
+    margin-bottom: 0px;
 }
 
 .toppage .background {
