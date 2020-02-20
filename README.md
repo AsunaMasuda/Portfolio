@@ -82,3 +82,4 @@ To be updated
 ### Acknowledgements
 - I refered to the JavaScript snippets of [Tooltips](https://www.w3schools.com/bootstrap/bootstrap_tooltip.asp), [Navbar](https://getbootstrap.com/docs/4.4/components/navbar/) and [Scrollspy](https://getbootstrap.com/docs/4.4/components/scrollspy/), explained in the links respectively.
 - I refered to [this article by Madhav Bahl](https://hackernoon.com/use-custom-domain-with-github-pages-2-straightforward-steps-cf561eee244f) for how to use custom domain with Github pages
+- For screen size optimizations, I refered to this article: [Optimizing for Large-Scale Displays](https://css-tricks.com/optimizing-large-scale-displays/), [The EMs have it: Proportional Media Queries FTW!](https://cloudfour.com/thinks/the-ems-have-it-proportional-media-queries-ftw/)
