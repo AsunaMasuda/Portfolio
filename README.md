@@ -54,7 +54,10 @@ For the managers, they would be interested in my technologies skill sets and the
 - More animations when hovering over some parts of the site with JavaScript. E.g. the stars in the skill section could respond
 
 ## Testing
-To be updated
+This site was tested across multiple browsers for desktop PCs (Chrome, Safari, FireFox, Opera) and on multiple mobile devices using Google developer tool(iPad, iPad Pro, iPhone X, iPhone 6/7/8 (Plus), iPhone 5/SE, Pixel 2 (XL), Galaxy S5) to ensure compatibility and responsiveness. 
+
+## Development
+- I used Gitpod for a developer tool (IDE) in this project.
 
 ## Deployment
 This site is using a custom domain with GitHub pages, deployed directly from the master branch. The deployed site will be updated upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html.
