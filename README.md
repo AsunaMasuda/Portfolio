@@ -1,7 +1,7 @@
 # Asuna Masuda Portfolio
 Milestone Project #1 : User-Centric Frontend Development - Code Institute 
 
-This is my portfolio website to present to prospective employers. The portfolio shows my career and education histories and highlights my skills and several projects that cover a wide range of technologies in software development and data science. Also, it contains a contact form for the visiters who are interested in contacting me.
+This is my portfolio website to present to prospective employers. The portfolio shows my career and education history and highlights my skills and several projects that cover a wide range of technologies in software development and data science. Also, it contains a contact form for the visiters who are interested in contacting me.
 
 ## Demo
 [Live demo](https://asunamasuda.github.io/Portfolio/) is available here.
@@ -25,16 +25,16 @@ For the managers, they would be interested in my technologies skill sets and the
 
 #### Structure
 - Utilized a responsive navigation bar which makes it easy to navigate and recognize where the visiters are in the site. This navbar collapses with smaller screen sizes, so the navbar section does not get busy with letters.
-- The footer section holds icons and links to my Github and LinkedIn accounts
+- The footer section holds icons and links to my Github and LinkedIn accounts.
 
 #### Design
 - Chose moderate and beautiful backgrounds.
 - Unified the colors using blue, yellow and pink with darker tones.
-- When hover over any links, they returns yellow color so that they can unify the site.
+- When hovering over any links, they return a yellow colour so that they can unify the site.
 
 #### Contents
-- Kept the words as simple as possible as I wanted the visiters easily to glimpse of who I am  
-- Visualized the skills with the filled & unfilled stars so they can easily grasp my skills at a glance
+- Kept the words as simple as possible as I wanted the visiters easily to glimpse of who I am.
+- Visualized the skills with the filled & unfilled stars so they can easily grasp my skills at a glance.
 
 #### Wireframes
 - [Landing Page wireframe](https://github.com/AsunaMasuda/Portfolio/blob/master/mockups/LandingPage.pdf)
@@ -50,8 +50,8 @@ For the managers, they would be interested in my technologies skill sets and the
 4. JavaScript (Contactform, Tooltips, Navigation Bar)
 
 ## Features Left to Implement
-- At the moment, submit botton just replies in a alert message. In the future, I'd like to connect with my email address so I can receive. 
-- More animations when hovering over some parts of the site with JavaScript. E.g. the stars in the skill section could respond
+- At the moment, submit button just replies and alerts message. In the future, I'd like to connect my email address so I can receive messages. 
+- More animations when hovering over some parts of the site with JavaScript. E.g. the stars in the skill section could respond.
 
 ## Testing
 This site was tested across multiple browsers for desktop PCs (Chrome, Safari, FireFox, Opera) and on multiple mobile devices using Google developer tool(iPad, iPad Pro, iPhone X, iPhone 6/7/8 (Plus), iPhone 5/SE, Pixel 2 (XL), Galaxy S5) to ensure compatibility and responsiveness. 
@@ -70,7 +70,7 @@ All html and css files in the "AsunaMasuda/Portfolio" repository in Github were 
 
 ### Media
 #### Icons
-- Thr icons were provided by [Font Awesoms](https://fontawesome.com/)
+- The icons were provided by [Font Awesoms](https://fontawesome.com/)
 - The favicon was made by [Freepik](https://www.flaticon.com/authors/freepik) from [Flaticon](https://www.flaticon.com/).
 To be updated
 #### Background Photos
