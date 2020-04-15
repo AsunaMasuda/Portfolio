@@ -495,12 +495,12 @@ section#contact .container, .container-sm {
 
 @media screen and (min-width: 1366px) and (max-width:2560px) {
 .container_c {
-    padding: 150px 25%;
+    padding: 150px 150px
 }
 
 .toppage .intro-text {
-    padding-top: 800px;
-    padding-left: 0px
+    padding-top: 370px;
+    padding-left: 10px
 }
 
 .toppage .intro-text .intro-lead-in {
