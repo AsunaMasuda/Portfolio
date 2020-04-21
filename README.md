@@ -72,7 +72,7 @@ All html and css files in the "AsunaMasuda/Portfolio" repository in Github were 
 #### Icons
 - The icons were provided by [Font Awesoms](https://fontawesome.com/)
 - The favicon was made by [Freepik](https://www.flaticon.com/authors/freepik) from [Flaticon](https://www.flaticon.com/).
-To be updated
+
 #### Background Photos
 - The landing page: by Elizaveta Kozorezova from Pexels
 - About Me section: by 邱韬 from Pexels
